@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="script2.css">
+<link rel="stylesheet" href="style2.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js" integrity="sha512-xAxjKW1J/R4TFytv43xvQ7jFTrJlBzsDOH/Aw0fFc2nvarQkE3d08lTicjzUsZJYDoHYDCpwsUUqOJXh34A1sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/split-type"></script>
+</head>
+<body>
+	<section class="container-fluid m-0 p-0">
+		<nav class="navbar fixed-top navbar-expand-lg  px-4 custom-nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.htm"><img src="data/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " href="news.htm">News</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="abt2.htm">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+        </li>
+       
+           </ul>
+    </div>
+  </div>
+</nav>
+</section>
+
+<!--------------------------------banner------------------------------------------------------->
+
+<section class="container-fluid abt-banner m-0 p-0">
+  <div class="abt-banner-box video">
+    <video autoplay muted loop src="data/bg-chc.mp4"></video>
+  </div>
+  <div class="abt-banner-box greeting">
+    <p id="my-text">Welcome to Evoke Solutions</p>
+  </div>
+</section>
+
+<section class="container-fluid m-0 p-5 summary">
+  <div class="square1">
+  <p class="scaleup">Thank you for stopping by and taking a moment to learn more about the heartbeat behind Evoke Solutions. We're thrilled to have you here. At Evoke Solutions, we believe in value. Whether you're a [describe your target audience] seeking [mention the primary benefit or value your website provides] or simply curious about [the main topic or theme of your website], you've landed in the right place. Our journey began [mention the inception or a significant moment in the history of your website]. Fuelled by [passion, expertise, or a shared vision], our team has been dedicated to [your mission or purpose]. We understand the challenges of [related to your niche or industry], and we are committed to [how you aim to address or solve these challenges]. As you explore our virtual home, you'll discover not just a website but a [describe the essence of your website – e.g., a community, a resource hub, a source of inspiration]. We take pride in [mention a unique aspect of your website], and it is our pleasure to share our story with you. So, grab a metaphorical seat, wander through our digital corridors, and get to know the faces and voices behind Evoke Solutions. Together, let's embark on a journey of Unveiling Global Truths. We're excited to connect with you, and we hope you find inspiration, information, and a sense of belonging right here at Evoke Solutions. Happy exploring!</p></div>
+</section>
+<section class="container-fluid m-0 p-5 compose-email">
+  
+    <form action="formhandler.php" class="compose-box" method="post">
+      <h5>mail us</h5>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="text" name="firstname" placeholder="First name" required>
+  <input type="text" name="Lastname" placeholder="Lastname" required>
+  <input type="text" name="Subject" placeholder="Subject" required>
+  <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+  <button class="btn" type="Submit">Submit</button>
+</form>
+</section>
+
+<section class="container-fluid m-0 p-5 contact abt-contact">
+  <div class="cont info">
+    <ul>
+      <li>
+        <h4> Address</h4>
+        <p>Bygdøy Allé 111A<br>
+0273 Oslo<br>
+Norway</p>
+</li>
+ <li>
+        <h4> Email</h4>
+        <p><a href="#">info@Evokesolutions.com</a></p>
+</li>
+ <li>
+        <h4> Phone</h4>
+        <p>+47 95 33 95 95</p>
+</li>
+    </ul>
+  </div>
+  <div class="cont map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127763.61544850846!2d11.011698256838867!3d59.97682664252533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1702062211089!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<section class="container-fluid m-0 p-2 social-media">
+  <div class="s-text"><p>Follow us on</p></div>
+  <div class="s-icon">
+    <ul>
+      <li><a href=" https://t.me/niklasschlichting" target="_blank"><i class="bi bi-telegram"></i></a></li>
+      <li><a href=" https://t.me/niklasschlichting" target="_blank"><i class="bi bi-instagram"></i></a></li>
+      <li><a href=" https://t.me/niklasschlichting" target="_blank"><i class="bi bi-facebook"></i></a></li>
+      <li><a href=" https://t.me/niklasschlichting" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <small>Copyright © 2017-2023 Evoke solutions. All rights reserved.</small><br>
+  <a href="#">Privacy Policy</a>
+  </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="app.js"></script>
+</head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

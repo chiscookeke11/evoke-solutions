@@ -1,0 +1,118 @@
+@media only screen and (max-width:767px){	
+	.scroll-effect-element {
+  opacity: 1;
+  transform: translateY(50px); 
+  transition: opacity 1s, transform 1s;
+}
+.poster{
+	display: flex;
+	padding: 10px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 3%;
+}
+.post {
+	max-width: 500px;
+	height: 400px;
+	width: 500px;
+}
+.text{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: 16px;
+	text-align: initial;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+}
+.poster{
+	display: flex;
+	padding: 20px;
+	gap: 10px;
+	flex-wrap: wrap;
+	margin-bottom: 3%;
+}
+.post {
+	max-width: 500px;
+	height: 300px;
+	width: 500px;
+}
+.greeting{
+	text-align: center;
+	align-items: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	padding: 0 10px 0 10px;
+}
+.greeting p{
+	text-align: center;
+	border-radius: 10px;
+	text-shadow: 0 0 5px #000;
+	color: #e8e8e8;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	line-height: 4rem;
+}
+.summary p{
+	padding: 0px;
+	transform: scale(1);
+	transition: transform 0.5s ease;
+	text-align: justify;
+}
+.blog{
+	min-width: 300px;
+	max-width: 300px;
+	height: 600px;
+	box-shadow: 0 0 5px #e8e8e8;
+	border-radius: 10px;
+	flex: calc(33.33% - 20px);
+	background-color: #fff;
+	margin: 10px 0 15px 0;
+	padding: 10px;
+	overflow: hidden;
+}
+.btm-img{
+	width: 250px;
+	height: 250px;
+	object-fit: contain;
+	object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
